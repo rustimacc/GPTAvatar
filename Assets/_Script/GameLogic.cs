@@ -78,13 +78,13 @@ public class GameLogic : MonoBehaviour
         RTConsole.Log("Application quitting normally");
 
 //        NetworkTransport.Shutdown();
-        print("QUITTING!");
+        //print("QUITTING!");
     }
     
 
     private void OnDestroy()
     {
-        print("Game logic destroyed");
+        //print("Game logic destroyed");
     }
 
     public void OnConfigButton()

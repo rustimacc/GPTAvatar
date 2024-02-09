@@ -1430,7 +1430,6 @@ MonoBehaviour:
   timingEndVariance: 0.7
   silenceSampleWeight: 0.98
   silenceHits: 0
-  salsaCanAnalyzeAudio: 1
 --- !u!114 &1020498025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18942,7 +18941,6 @@ MonoBehaviour:
   timingEndVariance: 0.7
   silenceSampleWeight: 0.98
   silenceHits: 0
-  salsaCanAnalyzeAudio: 1
 --- !u!114 &6629902092809157472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21569,7 +21567,7 @@ MonoBehaviour:
   randomHoldDurationMax: 0.5
   configReady: 1
   warnOnNullRefs: 1
-  inspSalsaLinked: 1
+  inspSalsaLinked: 0
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
   inspStateFoldoutEmotes: 0

@@ -224,7 +224,7 @@ public class RTConsole : MonoBehaviour
             {
                 //yes, this is bad, but it's only used for debug stuff
                 SetShowUnityDebugLogInConsole(false);
-                Debug.unityLogger.Log(_logPrependString, text);
+                //Debug.unityLogger.Log(_logPrependString, text);
                 SetShowUnityDebugLogInConsole(true);
             } else
             {

@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.soupday.cc3_unity_tools": {
-      "version": "file:F:/Unity/Mypackages/cc_unity_tools_URP-1.4.7.URP12",
+      "version": "file:C:/Users/pasto/Desktop/Proyectos Lino/Stella Artois/cc_unity_tools_URP-1.6.1.URP14",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -25,7 +25,7 @@
     },
     "com.unity.burst": {
       "version": "1.8.3",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
@@ -33,7 +33,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.0.1",
+      "version": "2.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -47,7 +47,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.18",
+      "version": "3.0.24",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -56,7 +56,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.17",
+      "version": "2.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -72,7 +72,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.5.0",
+      "version": "1.6.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -82,13 +82,13 @@
     },
     "com.unity.mathematics": {
       "version": "1.2.6",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.probuilder": {
-      "version": "5.0.6",
+      "version": "5.1.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -100,7 +100,7 @@
     },
     "com.unity.render-pipelines.core": {
       "version": "14.0.6",
-      "depth": 1,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
@@ -111,7 +111,7 @@
     },
     "com.unity.render-pipelines.universal": {
       "version": "14.0.6",
-      "depth": 0,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
@@ -122,7 +122,7 @@
     },
     "com.unity.searcher": {
       "version": "4.9.2",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -136,7 +136,7 @@
     },
     "com.unity.shadergraph": {
       "version": "14.0.6",
-      "depth": 1,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "14.0.6",
@@ -164,7 +164,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.7.4",
+      "version": "1.7.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {

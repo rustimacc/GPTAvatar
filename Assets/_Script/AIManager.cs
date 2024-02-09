@@ -84,7 +84,7 @@ public class AIManager : MonoBehaviour
 
         if (lipsyncModel != null)
         {
-            Debug.Log("Found salsa");
+            //Debug.Log("Found salsa");
             //_salsa
             _audioSourceToUse = lipsyncModel.GetComponent<AudioSource>();
         }
@@ -116,7 +116,8 @@ public class AIManager : MonoBehaviour
 
     public void SetOpenAI_APIKey(string key)
     {
-        _openAI_APIKey = key;
+         _openAI_APIKey = key;
+        //_openAI_APIKey = "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";
     }
     public void SetOpenAI_Model(string model)
     {
@@ -242,7 +243,7 @@ public class AIManager : MonoBehaviour
         RTDB db = new RTDB();
         db.Set("question", question);
         db.Set("role", "user");
-
+        print("API KEY"+_openAI_APIKey);
         textCompletionScript.SpawnChatCompleteRequest(json, OnGPT3TextCompletedCallback, db, _openAI_APIKey);
         UpdateStatusText(RTUtil.ConvertSansiToUnityColors("(AI is thinking) You said: `$" + question + "``"), 20);
     }
